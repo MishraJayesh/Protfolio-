@@ -1,5 +1,14 @@
 import React from 'react';
-import {html, css, js, mongo, express, react, node} from '../Asset/skills';
+// import {html, css, js, mongo, express, react, node} from '../Asset';
+import html from '../Asset/html.png';
+import css from '../Asset/css.png';
+import js from '../Asset/js.png';
+import mongo from '../Asset/mongo.png';
+import express from '../Asset/express.png';
+import react from '../Asset/react.png';
+import node from '../Asset/node.png';
+
+
 import '../styling/Skills.css';
 
 const Skills = () => {
