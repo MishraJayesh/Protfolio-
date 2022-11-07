@@ -1,4 +1,5 @@
 import React from 'react';
+import self from '../Asset/self.jpg';
 import '../styling/About.css';
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
                 <h2>About me</h2>
                 <div className="main">
                     <div className="about-image">
-                        <img src="" alt=" " />
+                        <img src={self} alt="my-self" />
                     </div>
                     <div className="content">
                         <ul>
