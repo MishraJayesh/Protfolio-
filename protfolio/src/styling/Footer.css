@@ -1,4 +1,4 @@
-footer {
+/* footer {
     background-color: #19a78a;
     color: #e3e3e3;
     height: 137px;
@@ -14,4 +14,19 @@ h1 {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+} */
+
+footer {
+    background-color: darkseagreen;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin-top: 26%;
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+    position: absolute;
+    margin-top: 35%;
+
 }

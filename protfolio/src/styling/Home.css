@@ -56,10 +56,16 @@
 }
 
 .profile-img div img {
-    display: flex;
+    /* display: flex;
     position: absolute;
     width: 35%;
     height: 85%;
+    margin-top: 5%;
+    margin-left: 55%; */
+    display: flex;
+    position: fixed;
+    width: 35%;
+    height: 100%;
     margin-top: 5%;
     margin-left: 55%;
 }

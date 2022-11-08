@@ -1,10 +1,29 @@
 .contact {
     display: flex;
-    width: 90%;
+    width: 94%;
     height: 500px;
     margin: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -335px;
+    margin-left: 2%;
+}
+
+.contact-header {
+    display: flex;
+    position: inherit;
+    width: auto;
+    height: auto;
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 20%;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .contact-info {
@@ -26,4 +45,10 @@
 .contact-grid a {
     background-color: teal;
     color: white;
+}
+
+.contact-grid a img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
 }
