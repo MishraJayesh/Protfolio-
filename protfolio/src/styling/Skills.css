@@ -1,4 +1,4 @@
-.tech-skills {
+/* .tech-skills {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 5%;
@@ -47,4 +47,71 @@
     transition: all 0.5s ease-in;
     cursor: pointer;
     justify-content: center;
+} */
+
+.tech-skills {
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    position: inherit;
+    font-size: large;
+    font-family: auto;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    align-items: center;
+}
+
+.all-skills {
+    display: grid;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.all-skills div {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
+.all-skills img {
+    height: 60%;
+    width: 60%;
+}
+
+.skills-btn {
+    margin-top: 30px;
+}
+
+.skills-btn button {
+    margin: 2px;
+    padding: 10px 15px;
+    color: white;
+    background-color: mediumseagreen;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: auto;
+    font-size: xx-large;
 }

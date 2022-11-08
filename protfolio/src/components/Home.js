@@ -1,4 +1,5 @@
 import React from 'react';
+import self from '../Asset/self.jpg';
 import '../styling/Home.css';
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
         <div>
             <div id="home" className="home-cont">
                 <div className="details">
-                    <h1>Hello, I Am Mishra Jayesh Vinod </h1>
+                    <h1>Hello, I Am Jayesh Vinod Mishra </h1>
                     <p>Full Stack Developer</p>
                     <p></p>
 
@@ -26,7 +27,7 @@ const Home = () => {
                 <div className="profile-img">
 
                     <div>
-                        <img src="https://www.pngkey.com/png/detail/843-8432184_software-developer-png-pluspng-software-engineer-png-icon.png" alt="" />
+                        <img src={self} alt="" />
                     </div>
 
                 </div>
