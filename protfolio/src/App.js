@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import SideBar from './components/SideBar';
+// import SideBar from './components/SideBar';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter >
         <Nav />
-        <SideBar />
+        {/* <SideBar /> */}
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -53,11 +53,11 @@
     display: inline-block;
     width: 30%;
     height: 40%;
-    position: inherit;
+    position: fixed;
     font-size: large;
     font-family: auto;
     font-style: italic;
-    margin-top: 5%;
+    margin-top: 12%;
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right: 2%;
@@ -67,13 +67,14 @@
 
 .all-skills {
     display: grid;
-    position: absolute;
+    position: fixed;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(7, 1fr);
     gap: 15px;
     margin-top: 20px;
     justify-content: center;
+    margin: auto;
 }
 
 .all-skills div {
@@ -91,6 +92,13 @@
 .all-skills img {
     height: 60%;
     width: 60%;
+}
+
+.all-skills p {
+    display: flex;
+    position: absolute;
+    margin-top: 12%;
+    font-size: smaller;
 }
 
 .skills-btn {

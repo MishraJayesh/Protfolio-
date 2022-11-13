@@ -20,7 +20,7 @@ const Projects = () => {
                     <h5 className="card-title">Counter App</h5>
                     <p className="card-text">
                         This App Uses Redux.js
-                        & React.js
+                        & React.js And JavaScript.
                     </p>
                 </div>
                 {/* <div className="card-footer"> </div> */}
@@ -32,7 +32,7 @@ const Projects = () => {
                     <h5 className="card-title">Todo List</h5>
                     <p className="card-text">
                         This App Uses Redux.js
-                        & React.js
+                        & React.js, JavaScript, HTML And CSS.
                     </p>
                 </div>
                 {/* <div className="card-footer"> </div> */}
@@ -44,7 +44,7 @@ const Projects = () => {
                     <h5 className="card-title">Blog App</h5>
                     <p className="card-text">
                         This Is Only A Responsive UI For SignUp Page Of Blog App.
-                        This Application Uses React.js
+                        This Application Uses React.js, JavaScript, HTML And CSS.
                     </p>
                 </div>
                 {/* <div className="card-footer"> </div> */}
@@ -56,9 +56,9 @@ const Projects = () => {
                     <h5 className="card-title">Book Directory</h5>
                     <p className="card-text">
                         This Is Only A Responsive UI Of Book Directory Application.
-                        This Application Uses React.js
-                        Whereas API Integrations Are Pending In Completion Of Application.
-                        APIs Are Made By Node.js.
+                        This Application Uses React.js, Node.js, JavaScript, HMTL And CSS.
+                        Whereas API Integrations Are Yet To Be Done To Complete This Application.
+                        APIs Are Created In Node.js .
                     </p>
                 </div>
                 {/* <div className="card-footer"> </div> */}
@@ -70,7 +70,7 @@ const Projects = () => {
                     <h5 className="card-title">Instagram-Clone</h5>
                     <p className="card-text">
                         This Is Only A Responsive UI Of Instagram Clone Application.
-                        This Was An Team Project, In Which Lead The Frontend
+                        This Was An Team Project, In Which I Lead The Frontend
                         By Creating A Responsive UI For Application.
                     </p>
                 </div>
@@ -83,7 +83,8 @@ const Projects = () => {
                     <h5 className="card-title">Protfolio</h5>
                     <p className="card-text">
                         This Is A Complete React.js Project.
-                        This Complete Project Is Made By Me By Taking References From YouTube.
+                        This Application Uses React.js, JavaScript And CSS.
+                        This Complete Project Is Made By Me(References From YouTube).
                     </p>
                 </div>
                 {/* <div className="card-footer"> </div> */}
@@ -96,8 +97,9 @@ const Projects = () => {
                     <p className="card-text">
                         This Is A Complete MERN STACK Project.
                         Frontend, Backend And Database All Are Well Created.
-                        All APIs Are Created By Me And Also Integrated.
-                        This Complete Project Is Made By Me By Taking References From YouTube.
+                        All APIs Are Created And Also Integrated.
+                        Authentication And Authorization Is Done By JSON Web Token.
+                        This Complete Project Is Made By Me(References From YouTube).
                     </p>
                 </div>
                 {/* <div className="card-footer"> </div> */}
