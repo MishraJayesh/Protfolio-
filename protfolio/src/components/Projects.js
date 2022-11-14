@@ -19,8 +19,8 @@ const Projects = () => {
                     <div className="card-body">
                         <a href="https://github.com/MishraJayesh/PRACTICE/tree/main/REDUX/todolist"><h5 className="card-title">Todo List</h5></a>
                         <p className="card-text">
-                            This App Uses Redux.js
-                            & React.js, JavaScript, HTML And CSS.
+                            This Is Reponsive Todo-List With All Basic Functionality A Todo-List Suppose To Have.
+                            This App Uses Redux.js, React.js, JavaScript, HTML And CSS.
                         </p>
                     </div>
                     {/* <div className="card-footer"> </div> */}
@@ -44,9 +44,7 @@ const Projects = () => {
                         <a href="https://github.com/MishraJayesh/MERN_BOOK_DIRECTORY"><h5 className="card-title">Book Directory</h5></a>
                         <p className="card-text">
                             This Is Only A Responsive UI Of Book Directory Application.
-                            This Application Uses React.js, Node.js, JavaScript, HMTL And CSS.
-                            Whereas API Integrations Are Yet To Be Done To Complete This Application.
-                            APIs Are Created In Node.js .
+                            This Application Uses React.js, JavaScript, HMTL And CSS.
                         </p>
                     </div>
                     {/* <div className="card-footer"> </div> */}
@@ -58,8 +56,7 @@ const Projects = () => {
                         <a href="##"><h5 className="card-title">Instagram-Clone</h5></a>
                         <p className="card-text">
                             This Is Only A Responsive UI Of Instagram Clone Application.
-                            This Was An Team Project, In Which I Lead The Frontend
-                            By Creating A Responsive UI For Application.
+                            This Application Uses React.js, JavaScript, HMTL And CSS.
                         </p>
                     </div>
                     {/* <div className="card-footer"> </div> */}
