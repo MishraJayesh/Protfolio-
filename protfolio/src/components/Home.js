@@ -12,7 +12,7 @@ const Home = () => {
                     <p></p>
 
                     <div className="project-btn">
-                        <a href="##" download=""><button>Resume</button></a>
+                        <a href="https://drive.google.com/file/d/1lTYpiktufz8vlmO0vUyuTvuZ7Z1l-P62/view?usp=sharing" download=""><button>Resume</button></a>
                     </div>
 
                     <div className="social">

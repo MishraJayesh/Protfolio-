@@ -20,6 +20,7 @@
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-ul {
