@@ -8,62 +8,62 @@
 } */
 
 .project {
-    display: grid;
-    grid-template-columns: 435px;
-    grid-gap: 40px;
-    justify-content: space-around;
-    width: 70%;
-    padding: 10%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 435px;
+  grid-gap: 40px;
+  justify-content: space-around;
+  width: 70%;
+  padding: 10%;
+  margin: auto;
 }
 
 .project-container {
-    display: grid;
-    margin: 0;
-    margin-top: 50%;
+  display: grid;
+  margin: 0;
+  margin-top: 50%;
 }
 
 .card {
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    height: 18rem;
-    margin: 20px;
-    padding: 10px;
-    width: 25rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+  margin: 20px;
+  padding: 10px;
+  width: 25rem;
 }
 
 .card-body {
-    display: flex;
-    background-color: gold;
+  display: flex;
+  background-color: gold;
 }
 
 .card-img-top {
-    display: flex;
-    height: 14rem;
-    margin: auto;
-    width: 10rem;
+  display: flex;
+  height: 14rem;
+  margin: auto;
+  width: 10rem;
 }
 
 .card-title {
-    display: flex;
-    color: black;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif
+  display: flex;
+  color: black;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .card-text {
-    display: flex;
-    color: black;
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 100px;
+  display: flex;
+  color: black;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 100px;
 }
 
 .card-footer {
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: teal;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  background-color: teal;
 }
 
 /* .text-muted{

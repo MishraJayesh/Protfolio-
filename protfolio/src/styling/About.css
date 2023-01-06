@@ -59,70 +59,70 @@ h2 {
 } */
 
 .about {
-    display: flex;
-    width: 49%;
-    height: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 7%;
-    position: inherit;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  width: 49%;
+  height: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 7%;
+  position: inherit;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
 
 .about-image img {
-    display: flex;
-    position: inherit;
-    width: 45%;
-    height: 55%;
-    margin: 0%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 25%;
-    margin-right: 0%;
-    padding: 2%;
+  display: flex;
+  position: inherit;
+  width: 45%;
+  height: 55%;
+  margin: 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 25%;
+  margin-right: 0%;
+  padding: 2%;
 }
 
 .content {
-    display: flex;
-    position: inherit;
-    width: auto;
-    height: auto;
-    margin: 0%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 3%;
-    background-color: burlywood;
-    color: black;
-    font-family: auto;
-    font-style: italic;
-    font-size: larger;
-    text-indent: 2px;
+  display: flex;
+  position: inherit;
+  width: auto;
+  height: auto;
+  margin: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 3%;
+  background-color: burlywood;
+  color: black;
+  font-family: auto;
+  font-style: italic;
+  font-size: larger;
+  text-indent: 2px;
 }
 
 .content ul {
-    list-style-type: square;
-    margin: 5%;
-    padding: 2%;
-    text-align: justify;
+  list-style-type: square;
+  margin: 5%;
+  padding: 2%;
+  text-align: justify;
 }
 
 .content ul li {
-    display: list-item;
-    text-align: justify;
-    margin-top: 2%;
+  display: list-item;
+  text-align: justify;
+  margin-top: 2%;
 }
 
 h2 {
-    text-align: center;
-    font-style: italic;
-    font-family: auto;
-    font-size: xx-large;
+  text-align: center;
+  font-style: italic;
+  font-family: auto;
+  font-size: xx-large;
 }

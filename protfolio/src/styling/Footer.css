@@ -17,16 +17,15 @@ h1 {
 } */
 
 footer {
-    background-color: darkseagreen;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    margin-top: 26%;
-    flex-direction: column-reverse;
-    align-items: center;
-    display: block;
-    position: absolute;
-    margin-top: 80%;
-
+  background-color: darkseagreen;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 26%;
+  flex-direction: column-reverse;
+  align-items: center;
+  display: block;
+  position: absolute;
+  margin-top: 80%;
 }

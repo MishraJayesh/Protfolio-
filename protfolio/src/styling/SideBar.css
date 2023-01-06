@@ -1,14 +1,14 @@
 .hamberger {
-    display: block;
-    position: relative;
-    float: right;
+  display: block;
+  position: relative;
+  float: right;
 }
 
 .fa-solid {
-    display: flex;
-    margin-top: 18px;
-    font-size: xx-large;
-    cursor: pointer;
+  display: flex;
+  margin-top: 18px;
+  font-size: xx-large;
+  cursor: pointer;
 }
 /* .sideBar-ul {
     height: 100%;
@@ -24,42 +24,46 @@
 } */
 
 .sidenav {
-    display: flex;
-    height: 100%;
-    width: 10%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 90%;
-    background-color: darkseagreen;
-    transition: 0.5s;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 90%;
+  background-color: darkseagreen;
+  transition: 0.5s;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .sidenav a {
-    /* padding: 8px 8px 8px 32px; */
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffb7b7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -2px;
+  right: 5px;
+  font-size: 45px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
   }
-  
-  .sidenav a:hover {
-    color: #ffb7b7;
+  .sidenav a {
+    font-size: 18px;
   }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: -2px;
-    right: 5px;
-    font-size: 45px;
-    margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}

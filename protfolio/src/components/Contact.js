@@ -13,19 +13,19 @@ const Contact = () => {
                     <div className="contact-grid">
                         <a href="https://www.linkedin.com/in/jayesh-mishra-27771b165/">
                             <img src="https://p.kindpng.com/picc/s/32-326233_linkedin-thompson-electric-company-linkedin-logo-bw-png.png" alt="linkedin" />
-                                <div>LinkedIn</div>
+                            <div>LinkedIn</div>
                         </a>
                         <a href="https://github.com/MishraJayesh">
                             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
-                                <div>Github</div>
+                            <div>Github</div>
                         </a>
                         <a href="mailto:jkl2050jkl@gmail.com">
                             <img src={email} alt="email" />
-                                <div>Email</div>
+                            <div>Email</div>
                         </a>
                         <a rel="noreferrer" target="_blank" href="tel:+919819924611">
                             <img src={phone} alt="phone" />
-                                <div>Phone</div>
+                            <div>Phone</div>
                         </a>
                     </div>
                 </div>
